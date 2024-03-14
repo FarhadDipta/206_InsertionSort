@@ -17,5 +17,7 @@ void insertionSort() {
             arr[j+1] = arr[j]; //step 4a
             j--; //step 4b
         }
+
+        arr[j + 1] = temp; //step 5
     }
 }
